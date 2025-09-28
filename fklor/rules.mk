@@ -1,0 +1,9 @@
+MCU = RP2040
+BOOTLOADER = rp2040
+
+# split
+SPLIT_KEYBOARD = yes
+SERIAL_DRIVER = vendor
+
+# Debug
+CONSOLE_ENABLE = yes
