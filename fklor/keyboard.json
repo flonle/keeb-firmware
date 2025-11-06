@@ -4,12 +4,6 @@
     "maintainer": "Florian Laporte",
     "development_board": "liatris",
     "diode_direction": "COL2ROW",
-    "features": {
-        "bootmagic": true,
-        "extrakey": true,
-        "mousekey": true,
-        "nkro": true
-    },
     "url": "https://github.com/flonle/keeb-firmware",
     "usb": {
         "device_version": "1.0.0",
