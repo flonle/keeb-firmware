@@ -101,10 +101,6 @@ void bongo_hook(uint16_t keycode, keyrecord_t *record) {
     next_active_frame_idx |= (record->event.pressed << is_left_side);  // set relevant bit based on keypress event
 }
 
-// TODO is there commonality between these frame that I can use to my advantage to do a partial hydration?
-// Seems to me there is.
-
-
 // TODO check and tune performance once the naive implementation works: https://keebsforall.com/blogs/mechanical-keyboards-101/reduce-keyboard-input-lag-with-qmk
 
 static void render_status(void) {
@@ -188,10 +184,8 @@ oled_rotation_t oled_init_user(oled_rotation_t rotation) {
 bool oled_task_user(void) {
     if (is_keyboard_left()) {
         render_status();
-        // render_bongo_cat();
     } else {
         render_bongo_cat();
-        // render_status();
     }
     return false;
 }
