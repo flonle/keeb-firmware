@@ -1,6 +1,5 @@
 #include QMK_KEYBOARD_H
 #include <stdint.h>
-#include "keymap.h"
 #include "action.h"
 #include "keycodes.h"
 #include "print.h"
