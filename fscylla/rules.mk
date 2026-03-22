@@ -10,3 +10,5 @@ EXTRAKEY_ENABLE = yes
 # Split
 SPLIT_KEYBOARD = yes
 SERIAL_DRIVER = vendor
+
+CONSOLE_ENABLE = yes
